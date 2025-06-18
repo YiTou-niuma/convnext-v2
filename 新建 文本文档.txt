@@ -1,0 +1,12 @@
+# 自动处理文本文件的行尾符
+* text=auto
+
+# 对于Python文件，强制使用LF
+*.py text eol=lf
+
+# 对于XML文件，强制使用LF（如果需要）
+*.xml text eol=lf
+
+# 对于IDE配置文件，通常不需要版本控制
+.idea/               export-ignore
+
